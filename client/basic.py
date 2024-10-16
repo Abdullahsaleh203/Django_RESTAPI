@@ -8,6 +8,7 @@ response = requests.get(endpoint,json={"query":
 # response = requests.get(endpoint,json={"query":"hello world"})   # => GET request to the endpoint api
 print(response.text)         # => print raw  text response
 
+
 # HTTP Response -> HTML
 # REST API  HTTP Request -> JSON
 print(response.json())         # 
