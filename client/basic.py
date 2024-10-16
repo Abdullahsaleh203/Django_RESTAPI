@@ -12,4 +12,4 @@ print(response.text)         # => print raw  text response
 # HTTP Response -> HTML
 # REST API  HTTP Request -> JSON
 print(response.json())         # 
-print(response.status_code)         # 
+print(response.status_code)    # 
