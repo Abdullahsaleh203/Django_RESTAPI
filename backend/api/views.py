@@ -9,7 +9,7 @@ def api_home(request,*args,**kwargs):
     except:
         pass
     print(data)
-    return JsonResponse(data)
-    # return JsonResponse({"massage":"Hello World "})
+    # return JsonResponse(data.values())
+    return JsonResponse({"massage":"Hello World "})
 # request.body
 # print(dir(request))
