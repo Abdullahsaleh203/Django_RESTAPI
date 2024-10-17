@@ -10,6 +10,7 @@ def api_home(request,*args,**kwargs):
         pass
     print(data)
     # return JsonResponse(data.values())
+    
     return JsonResponse({"massage":"Hello World "})
 # request.body
 # print(dir(request))
