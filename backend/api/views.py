@@ -12,4 +12,5 @@ def api_home(request,*args,**kwargs):
     # return JsonResponse(data.values())
     return JsonResponse({"massage":"Hello World "})
 # request.body
+
 # print(dir(request))
