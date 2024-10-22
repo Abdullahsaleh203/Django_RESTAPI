@@ -11,6 +11,7 @@ def api_home(request, *args, **kwargs):
         # data['title'] = model_data.title
         # data['content'] = model_data.content
         # data['price'] = model_data.price
+        
     # return HttpRequest(data, headers={"content-type":"application/json"})
     return JsonResponse(data)
 
