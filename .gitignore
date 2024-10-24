@@ -1,1 +1,4 @@
+.gitignore
 .venv/
+notes2.txt
+*.pyc
