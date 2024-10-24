@@ -1,4 +1,3 @@
-import json
 from django.forms.models import model_to_dict
 from products.models import Product
 from rest_framework.response import Response
