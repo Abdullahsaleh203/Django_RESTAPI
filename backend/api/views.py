@@ -9,8 +9,10 @@ def api_home(request, *args, **kwargs):
     """
     DRF Home View
     """
+    
     instance = Product.objects.all().order_by("?").first()
     data = {}
+    
     if instance:
         data =model_to_dict(instance, fields=['id','title','content'])
     return Response(data)
